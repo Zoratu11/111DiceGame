@@ -8,7 +8,7 @@ public class Game extends Die {
 	boolean playing;
 	int numOfPlayers;
 	public Player[] players = new Player[4];
-	int roundNum = 1;//Number of round corresponds to the player number 
+	int roundNum = 1;//Number of round corresponds to the player number, will be used to access array elements
 	//Ex: player 1 would be playing in round 1 player 2 in round 2
 	Scanner scan = new Scanner(System.in);
 	int roundScore;
